@@ -1,14 +1,22 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Theme Toggle App</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto Number Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Theme Toggle Mode</h1>
-  <button id="theme-toggle">Switch to Dark Mode</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <h1>Lotto Number Generator</h1>
+        <button id="theme-toggle">Switch to Dark Mode</button>
+    </header>
+    <main>
+        <div class="lotto-container">
+            <button id="generate-btn">Generate Numbers</button>
+            <div id="lotto-numbers" class="lotto-numbers"></div>
+        </div>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
